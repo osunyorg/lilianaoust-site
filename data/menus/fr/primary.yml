@@ -17,4 +17,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: Les yeux de la montagne
+  target: "/les-yeux-de-la-montagne/"
+  kind: page
+  children: []
 
