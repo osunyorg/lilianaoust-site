@@ -12,9 +12,9 @@ items:
 - title: Séries
   target: ''
   kind: blank
-  children: []
-- title: Les enfants du don
-  target: "/les-enfants-du-don/"
-  kind: page
-  children: []
+  children:
+  - title: Les enfants du don
+    target: "/les-enfants-du-don/"
+    kind: page
+    children: []
 
