@@ -3,17 +3,32 @@
     text-transform: none
     font-size: px2rem(30)
 
-.hero
-    padding-top: $spacing3
-    min-height: 0
-    .content
-        padding-top: 0
-        >hgroup, h1
-            margin-top: 0
+h1
+    font-style: italic
 
 .page__home
     .hero
-        display: none
+        min-height: 0
+        h1,
+        hgroup,
+        .lead
+            display: none
+
+.block-pages
+    .page-title
+        line-height: 100% !important
+    .page 
+        .more
+            opacity: 0 !important
+
+.glightbox-clean 
+    .gnext, 
+    .gprev, 
+    .gclose
+        color: black
+        background: none
+        &:hover
+            background: none
 
 @include media-breakpoint-up(desktop)
     header#document-header
@@ -29,18 +44,22 @@
                             padding-top: $spacing1
                             padding-left: 0
                             &.active
-                                font-weight: bold
+                                font-style: italic
     .hero
+        padding-top: $spacing3
+        min-height: 0
         .content
             display: block
+            padding-top: 0
             h1,
             hgroup
                 width: 100%
+                margin-top: 0
         figure
             display: none !important
     .toc-cta
         display: none !important
-    main,
+    main
         margin-left: offset(3)
     footer#document-footer
         margin-top: $spacing5
