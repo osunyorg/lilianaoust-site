@@ -9,4 +9,8 @@ items:
   target: "/series/les-yeux-de-la-montagne/"
   kind: page
   children: []
+- title: Les enfants du don
+  target: "/series/les-enfants-du-don/"
+  kind: page
+  children: []
 
