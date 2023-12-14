@@ -5,10 +5,7 @@
 
 .page__home
     .hero
-        min-height: 50px
-        h1,
-        hgroup
-            display: none
+        display: none
     
 
 @include media-breakpoint-up(desktop)
@@ -25,6 +22,14 @@
                         a
                             padding-top: $spacing1
                             padding-left: 0
+    .hero
+        .content
+            display: block
+            h1,
+            hgroup
+                width: 100%
+        figure
+            display: none !important
     .toc-cta
         display: none !important
 
