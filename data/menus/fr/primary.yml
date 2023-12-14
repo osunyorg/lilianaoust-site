@@ -1,16 +1,16 @@
 ---
 title: Menu principal
 items:
-- title: Infos
-  target: "/a-propos/"
-  kind: page
-  children: []
 - title: Menu
   target: ''
   kind: blank
   children:
   - title: Les yeux de la montagne
     target: "/les-yeux-de-la-montagne/"
+    kind: page
+    children: []
+  - title: Infos
+    target: "/a-propos/"
     kind: page
     children: []
   - title: Les enfants du don
