@@ -5,10 +5,6 @@ items:
   target: "/les-yeux-de-la-montagne/"
   kind: page
   children: []
-- title: Les enfants du don
-  target: "/les-enfants-du-don/"
-  kind: page
-  children: []
 - title: Infos
   target: "/a-propos/"
   kind: page
@@ -16,5 +12,9 @@ items:
 - title: Séries
   target: ''
   kind: blank
+  children: []
+- title: Les enfants du don
+  target: "/les-enfants-du-don/"
+  kind: page
   children: []
 
