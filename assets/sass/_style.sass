@@ -4,6 +4,25 @@
     font-size: px2rem(30)
 
 .page__home
-    #document-header:not(.is-sticky)
-        .logo
-            opacity: 0
+    .hero
+        min-height: 50px
+        h1,
+        hgroup
+            display: none
+
+@include media-breakpoint-up(desktop)
+    header#document-header
+        width: col(3)
+        bottom: 0
+        nav
+            > .container
+                padding-top: $spacing3
+                display: block
+                .nav-level-1
+                    display: block
+                    li
+                        a
+                            padding-top: $spacing1
+                            padding-left: 0
+    .toc-cta
+        display: none !important
