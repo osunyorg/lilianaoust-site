@@ -2,16 +2,25 @@
     text-decoration: none !important
     text-transform: none
     font-size: px2rem(30)
+
+.hero
+    padding-top: 50px
+    .content
+        padding-top: 0
+        >hgroup, h1
+            margin-top: 0
+
 .page__home
     .hero
         display: none
+
 @include media-breakpoint-up(desktop)
     header#document-header
         width: col(3)
         bottom: 0
         nav
+            padding-top: $spacing3
             > .container
-                padding-top: $spacing3
                 display: block
                 .nav-level-1
                     display: block
