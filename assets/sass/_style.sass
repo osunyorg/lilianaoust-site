@@ -39,12 +39,14 @@ h1
                 display: block
                 .nav-level-1
                     display: block
-                    li
-                        a
+                    li, li:last-child
+                        a, span
                             padding-top: $spacing1
                             padding-left: 0
                             &.active
                                 font-style: italic
+                .nav-level-2
+                    display: block
     .hero
         padding-top: $spacing3
         min-height: 0
