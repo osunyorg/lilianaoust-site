@@ -5,4 +5,8 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+- title: Les yeux de la montagne
+  target: "/series/les-yeux-de-la-montagne/"
+  kind: page
+  children: []
 
