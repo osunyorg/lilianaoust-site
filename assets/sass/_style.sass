@@ -24,12 +24,14 @@
                 display: block
                 .nav-level-1
                     display: block
-                    li
-                        a
+                    li, li:last-child
+                        a, span
                             padding-top: $spacing1
                             padding-left: 0
                             &.active
                                 font-weight: bold
+                .nav-level-2
+                    display: block
     .hero
         .content
             display: block
