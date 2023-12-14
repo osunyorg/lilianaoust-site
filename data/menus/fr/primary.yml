@@ -6,11 +6,11 @@ items:
   kind: page
   children: []
 - title: Les yeux de la montagne
-  target: "/series/les-yeux-de-la-montagne/"
+  target: "/les-yeux-de-la-montagne/"
   kind: page
   children: []
 - title: Les enfants du don
-  target: "/series/les-enfants-du-don/"
+  target: "/les-enfants-du-don/"
   kind: page
   children: []
 
