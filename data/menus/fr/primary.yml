@@ -9,12 +9,8 @@ items:
   target: "/les-enfants-du-don/"
   kind: page
   children: []
-- title: Menu
-  target: ''
-  kind: blank
-  children:
-  - title: Infos
-    target: "/a-propos/"
-    kind: page
-    children: []
+- title: Infos
+  target: "/a-propos/"
+  kind: page
+  children: []
 
