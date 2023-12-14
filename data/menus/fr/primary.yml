@@ -5,7 +5,7 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
-- title: Séries
+- title: Menu
   target: ''
   kind: blank
   children:
