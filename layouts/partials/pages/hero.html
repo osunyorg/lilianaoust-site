@@ -1,0 +1,16 @@
+{{- $title := or .Params.header_text .Title -}}
+{{- $description := partial "PrepareText" .Params.summary -}}
+
+
+<div class="page-hero">
+  {{- if or $description -}}
+    <hgroup>
+      <h1>{{ partial "PrepareHTML" $title }}</h1>
+      {{- if $description -}}
+        <p>{{ partial "PrepareHTML" $description }}</p>
+      {{- end -}}
+    </hgroup>
+  {{- else -}}
+    <h1>{{ partial "PrepareHTML" $title }}</h1>
+  {{- end -}}
+</div>
