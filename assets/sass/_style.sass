@@ -8,6 +8,7 @@ h1
 
 .page__home
     .hero
+        display: none
         min-height: 0
         h1,
         hgroup,
@@ -87,6 +88,7 @@ h1
             text-align: right
 
     .block-gallery
+        padding-top: pxToRem(50) !important
         .splide__slide
             opacity: 0
             transition: opacity 0.3s
@@ -108,3 +110,28 @@ h1
             margin-left: pxToRem(-12)
         &[aria-expanded="true"]
             @include icon-block(close)
+
+    .block-chapter
+        @include in-page-without-sidebar
+            &--accent_background, &--alt_background
+                    margin-left: $spacing3
+                    padding-top: $spacing4
+                    padding-bottom: $spacing4
+                    .chapter
+                        .text
+                            padding-left: offset(1)
+                            width: col(9)
+            &--with-image
+                .chapter
+                    flex-direction: row-reverse
+                    justify-content: space-between
+                    figure
+                        margin-left: 0
+                        width: col(6)
+                    .text
+                        width: col(6)
+    .block-image figure
+        @include in-page-without-sidebar
+            display: block !important
+            a
+                margin-left: 0 !important
