@@ -1,7 +1,6 @@
 {{- $title := or .Params.header_text .Title -}}
 {{- $description := partial "PrepareText" .Params.summary -}}
 
-
 <div class="page-hero">
   {{- if or $description -}}
     <hgroup>
