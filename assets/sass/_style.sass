@@ -6,15 +6,6 @@
 h1
     font-style: italic
 
-.page__home
-    .hero
-        display: none
-        min-height: 0
-        h1,
-        hgroup,
-        .lead
-            display: none
-
 .block-pages
     .page-title
         line-height: 100% !important
@@ -31,20 +22,50 @@ h1
         &:hover
             background: none
 
+.page__home
+    .hero
+        min-height: 0
+        margin-bottom: 0
+        padding-bottom: 0
+        h1,
+        hgroup,
+        .lead
+            display: none
+
+.hero
+    min-height: 0
+
+.page-hero
+    padding-bottom: 0
+    h1
+        margin-top: $spacing3
+        padding-bottom: $spacing1
+
 @include media-breakpoint-up(desktop)
+    .page__home
+        .hero
+            display: none
+
     .page-hero
         position: fixed
         bottom: 0
         left: 0
         width: col(3)
         padding: $spacing2
+        margin-top: 0
+        padding-top: 0
+        margin-bottom: 0
+        height: auto
+        min-height: 0
+        > .container
+            padding-left: 0
+            padding-right: 0
         h1
             @include h3
             padding-bottom: $spacing0
         p
             @include small
 
-@include media-breakpoint-up(desktop)
     header#document-header
         width: col(3)
         transform: none !important
@@ -135,3 +156,11 @@ h1
             display: block !important
             a
                 margin-left: 0 !important
+
+@include media-breakpoint-down(desktop)
+    .nav-level-1
+        > li
+            span
+                display: none !important
+            .dropdown-menu
+                display: block !important
