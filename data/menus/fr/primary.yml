@@ -14,7 +14,7 @@ items:
     kind: page
     children: []
   - title: Infos
-    target: "/a-propos/"
+    target: "/infos/"
     kind: page
     children: []
 
