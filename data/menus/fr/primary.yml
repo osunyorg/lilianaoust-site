@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Les yeux de la montagne
-  target: "/les-yeux-de-la-montagne/"
-  kind: page
-  children: []
 - title: Les enfants du don
   target: "/les-enfants-du-don/"
   kind: page
@@ -16,5 +12,9 @@ items:
 - title: Menu
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Les yeux de la montagne
+    target: "/les-yeux-de-la-montagne/"
+    kind: page
+    children: []
 
