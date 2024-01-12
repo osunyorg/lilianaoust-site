@@ -76,7 +76,7 @@
             line-height: 130%
 
     header#document-header
-        width: col(3)
+        width: calc(#{col(3)} + #{$grid-gutter})
         transform: none !important
         .container
             padding-left: $spacing2
@@ -85,7 +85,10 @@
             padding-top: $spacing2
             padding-bottom: 0
             > .container
-                display: block
+                // display: flex
+                padding-right: 0
+                align-items: center
+                justify-content: start
                 .nav-level-1
                     display: block
                     li, li:last-child
@@ -94,6 +97,14 @@
                             padding-left: 0
                             &.active
                                 font-weight: bold
+                    li:first-child span
+                        text-indent: space(-1000)
+                        padding-top: 0
+                        padding-bottom: 0
+                        padding-left: space(4)
+                        &::before
+                            text-indent: 0
+                            margin-top: 3px
                 .dropdown-menu
                     padding-top: $spacing0
                 .nav-level-2
