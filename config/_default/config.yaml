@@ -3,6 +3,7 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: lilianaoust.fr
   breadcrumb:
     position: none
   summary:
