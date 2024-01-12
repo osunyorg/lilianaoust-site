@@ -41,7 +41,13 @@ h1
         margin-top: $spacing3
         padding-bottom: $spacing1
 
+
 @include media-breakpoint-up(desktop)
+    .block-gallery.block-gallery--carousel
+        .splide__arrows
+            padding-top: 0
+        .splide__slide
+            transition: 0s
     .page__home
         .hero
             display: none

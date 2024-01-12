@@ -8,4 +8,18 @@ params:
   summary:
     position: hero
   search:
-    active: false  
+    active: false
+  blocks:
+    gallery:
+      splide:
+        # type: fade
+        autoplay: false
+        arrows: true
+        pagination: false
+        autoWidth: true
+        rewind: false
+        speed: 0
+  image_sizes:
+    design_system:
+      lightbox:
+        disabled: true
