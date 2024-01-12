@@ -3,9 +3,6 @@
     text-transform: none
     font-size: px2rem(30)
 
-h1
-    font-style: italic
-
 .block-pages
     .page-title
         line-height: 100% !important
@@ -73,8 +70,10 @@ h1
         h1
             @include h3
             padding-bottom: $spacing0
+            line-height: 110% !important
         p
-            @include small
+            font-size: px2rem(16)
+            line-height: 130%
 
     header#document-header
         width: calc(#{col(3)} + #{$grid-gutter})
@@ -97,7 +96,7 @@ h1
                             padding-top: $spacing1
                             padding-left: 0
                             &.active
-                                font-style: italic
+                                font-weight: bold
                     li:first-child span
                         text-indent: space(-1000)
                         padding-top: 0
