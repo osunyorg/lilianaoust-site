@@ -13,13 +13,16 @@ params:
   blocks:
     gallery:
       splide:
-        # type: fade
         autoplay: false
         arrows: true
         pagination: false
         autoWidth: true
         rewind: false
         speed: 0
+        breakpoints:
+          '992':
+            speed: 300
+            destroy: true
   image_sizes:
     design_system:
       lightbox:
