@@ -13,15 +13,13 @@ params:
   blocks:
     gallery:
       splide:
-        autoplay: false
-        arrows: true
-        pagination: false
-        autoWidth: true
-        rewind: false
         speed: 0
+        arrows: true
+        autoplay: false
+        type: loop
+        autoHeight: true
         breakpoints:
           '992':
-            speed: 300
             destroy: true
   image_sizes:
     design_system:
