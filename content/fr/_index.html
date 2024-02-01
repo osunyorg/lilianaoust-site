@@ -48,16 +48,24 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Infos
     ranks:
-      self: false
-      children: 2
+      self: 2
+      children: 3
     data:
+      page: 
+        path: "/infos/"
+        slug: "infos"
+        file: "content/fr/pages/infos/_index.html"
       show_main_description: false
       show_descriptions: false
-      show_images: true
-      layout: large
+      show_images: false
+      layout: list
       pages:
+        - path: "/les-yeux-de-la-montagne/"
+          slug: "les-yeux-de-la-montagne"
+          file: "content/fr/pages/les-yeux-de-la-montagne/_index.html"
+          external: false
         - path: "/les-enfants-du-don/"
           slug: "les-enfants-du-don"
           file: "content/fr/pages/les-enfants-du-don/_index.html"
