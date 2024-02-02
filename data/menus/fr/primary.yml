@@ -17,4 +17,8 @@ items:
     target: "/infos/"
     kind: page
     children: []
+  - title: Portraits
+    target: "/portraits/"
+    kind: page
+    children: []
 
