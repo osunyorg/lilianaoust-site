@@ -13,12 +13,12 @@ items:
     target: "/les-enfants-du-don/"
     kind: page
     children: []
-  - title: Infos
-    target: "/infos/"
-    kind: page
-    children: []
   - title: Portraits
     target: "/portraits/"
+    kind: page
+    children: []
+  - title: Infos
+    target: "/infos/"
     kind: page
     children: []
 
