@@ -1,7 +1,7 @@
 .logo
     text-decoration: none !important
     text-transform: none
-    font-size: px2rem(30)
+    font-size: pxToRem(30)
 
 .block-pages
     .page-title
@@ -35,8 +35,8 @@
 .page-hero
     padding-bottom: 0
     h1
-        margin-top: $spacing3
-        padding-bottom: $spacing1
+        margin-top: $spacing-5
+        padding-bottom: $spacing-3
 
 .block-gallery--carousel .splide__slide:last-child
     padding-right: 0
@@ -45,7 +45,7 @@
     .block-gallery.block-gallery--carousel
         .splide
             &__slide + .splide__slide
-                margin-top: half($grid-gutter-sm)
+                margin-top: $spacing-1
             figure 
                 margin-right: 0
                 picture img
@@ -53,7 +53,7 @@
         .splide__track
             margin-right: 0
 .footer-credit
-    padding-top: $spacing5
+    padding-top: $spacing-7
     &, a
         color: #666666 !important
 
@@ -75,8 +75,8 @@
         position: fixed
         bottom: 0
         left: 0
-        width: col(3)
-        padding: $spacing2 0 $spacing2 $spacing2
+        width: columns(3)
+        padding: $spacing-4 0 $spacing-4 $spacing-4
         margin-top: 0
         padding-top: 0
         margin-bottom: 0
@@ -86,21 +86,21 @@
             padding-left: 0
             padding-right: 0
         h1
-            font-size: px2rem(22)
-            padding-bottom: $spacing0
+            font-size: pxToRem(22)
+            padding-bottom: $spacing-2
             line-height: 110% !important
         p
-            font-size: px2rem(18)
+            font-size: pxToRem(18)
             line-height: 130%
 
     header#document-header
-        width: calc(#{col(3)} + #{$grid-gutter})
+        width: calc(#{columns(3)} + var(--grid-gutter))
         transform: none !important
         .container
-            padding-left: $spacing2
-            padding-right: $spacing2
+            padding-left: $spacing-4
+            padding-right: $spacing-4
         nav
-            padding-top: $spacing2
+            padding-top: $spacing-4
             padding-bottom: 0
             > .container
                 // display: flex
@@ -111,7 +111,7 @@
                     display: block
                     li, li:last-child
                         a, span
-                            padding-top: $spacing1
+                            padding-top: $spacing-3
                             padding-left: 0
                             &.active
                                 font-weight: bold
@@ -127,7 +127,7 @@
                             margin-top: 3px
                 .nav-level-2
                     display: block
-                    padding: 0 $spacing2
+                    padding: 0 $spacing-4
                     > li a
                         @include small
                     > li:first-child a
@@ -137,7 +137,7 @@
     .toc-cta
         display: none !important
     main
-        margin-left: col(3)
+        margin-left: columns(3)
     footer#document-footer
         > .container:first-child
             display: none
@@ -159,7 +159,7 @@
 
     .document-content > .blocks > .block:first-child
         &:not(.block-gallery--carousel)
-            margin-top: $spacing3
+            margin-top: $spacing-5
 
     #dropdown-menu
         display: flex
@@ -175,22 +175,22 @@
     .block-chapter
         @include in-page-without-sidebar
             &--accent_background, &--alt_background
-                    margin-left: $spacing3
-                    padding-top: $spacing4
-                    padding-bottom: $spacing4
+                    margin-left: $spacing-5
+                    padding-top: $spacing-6
+                    padding-bottom: $spacing-6
                     .chapter
                         .text
                             padding-left: offset(1)
-                            width: col(9)
+                            width: columns(9)
             &--with-image
                 .chapter
                     flex-direction: row-reverse
                     justify-content: space-between
                     figure
                         margin-left: 0
-                        width: col(6)
+                        width: columns(6)
                     .text
-                        width: col(6)
+                        width: columns(6)
     .block-image figure
         @include in-page-without-sidebar
             display: block !important
