@@ -17,10 +17,6 @@ items:
     target: "/la-cite-des-anges/"
     kind: page
     children: []
-  - title: Portraits
-    target: "/agenda/archives/portraits/"
-    kind: page
-    children: []
   - title: Infos
     target: "/infos/"
     kind: page
