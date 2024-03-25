@@ -178,14 +178,14 @@
 
     .block-chapter
         @include in-page-without-sidebar
+            .chapter
+                .text
+                    padding-left: offset(1)
+                    width: columns(9)
             &--accent_background, &--alt_background
-                    margin-left: $spacing-5
-                    padding-top: $spacing-6
-                    padding-bottom: $spacing-6
-                    .chapter
-                        .text
-                            padding-left: offset(1)
-                            width: columns(9)
+                margin-left: $spacing-5
+                padding-top: $spacing-6
+                padding-bottom: $spacing-6
             &--with-image
                 .chapter
                     flex-direction: row-reverse
