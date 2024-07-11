@@ -170,11 +170,10 @@
         align-items: center
         &::after
             display: none
-        @include icon-block(burger)
+        @include icon-block(menu-line)
             color: $color-text !important
-            margin-left: pxToRem(-12)
         &[aria-expanded="true"]
-            @include icon-block(close)
+            @include icon-block(close-line)
 
     .block-chapter
         @include in-page-without-sidebar
