@@ -12,18 +12,13 @@ params:
     active: false
   blocks:
     gallery:
-      splide:
-        speed: 0
-        arrows: true
-        autoplay: false
-        type: loop
-        autoHeight: true
-        breakpoints:
-          '992':
-            destroy: true
+      slider:
+        transition: 0
+        disable:
+          mobile: true
   image_sizes:
     design_system:
       lightbox:
         disabled: true
   debug:
-     productionUrl: "https://www.lilianaoust.fr"
+    productionUrl: "https://www.lilianaoust.fr"

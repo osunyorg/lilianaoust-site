@@ -37,20 +37,15 @@
         margin-top: $spacing-5
         padding-bottom: $spacing-3
 
-.block-gallery--carousel .splide__slide:last-child
-    padding-right: 0
+.block-gallery--carousel
+    @include in-page-with-sidebar
+        padding-top: $spacing-2
+    .slider
+        --slider-transition-opacity-duration: 0s
+    .gallery:not(.slider-list)
+        figure + figure
+            margin-top: $spacing-3
 
-@include media-breakpoint-down(desktop)
-    .block-gallery.block-gallery--carousel
-        .splide
-            &__slide + .splide__slide
-                margin-top: $spacing-1
-            figure 
-                margin-right: 0
-                picture img
-                    max-width: 100%
-        .splide__track
-            margin-right: 0
 .footer-credit
     padding-top: $spacing-7
     &, a
@@ -58,16 +53,17 @@
 
 @include media-breakpoint-up(desktop)
     .block-gallery.block-gallery--carousel
-        .block-content
-            padding-left: 0 !important
-        .splide__arrows
+        .slider-arrows
             padding-top: 0
-        .splide__slide
-            transition: 0s !important
-            &:not(.is-active)
+        .slider-slide
+            &:not(.is-current)
                 opacity: 0 !important
+        .slider-arrows
+            button
+                padding-bottom: $spacing-2
+                padding-top: $spacing-2
         figcaption
-            margin-left: space(20)
+            margin-left: space(30)
             position: absolute
             z-index: 0
     .page__home
@@ -151,9 +147,6 @@
 
     .block-gallery
         padding-top: pxToRem(50) !important
-        .splide__slide
-            opacity: 0
-            transition: opacity 0.3s
         .is-active
             opacity: 1
         .is-moving
