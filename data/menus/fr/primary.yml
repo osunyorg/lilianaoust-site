@@ -9,20 +9,24 @@ items:
     target: "/les-yeux-de-la-montagne/"
     kind: page
     children: []
+    path: "/pages/les-yeux-de-la-montagne"
     file: content/fr/pages/les-yeux-de-la-montagne/_index.html
   - title: Les enfants du don
     target: "/les-enfants-du-don/"
     kind: page
     children: []
+    path: "/pages/les-enfants-du-don"
     file: content/fr/pages/les-enfants-du-don/_index.html
   - title: La cité des anges
     target: "/la-cite-des-anges/"
     kind: page
     children: []
+    path: "/pages/la-cite-des-anges"
     file: content/fr/pages/la-cite-des-anges/_index.html
   - title: Infos
     target: "/infos/"
     kind: page
     children: []
+    path: "/pages/infos"
     file: content/fr/pages/infos/_index.html
 
