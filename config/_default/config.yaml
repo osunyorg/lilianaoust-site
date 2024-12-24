@@ -4,6 +4,8 @@ enableRobotsTXT: true
 removePathAccents: true
 params:
   plausible: lilianaoust.fr
+  design:
+    force_full_width: true
   breadcrumb:
     position: none
   summary:
