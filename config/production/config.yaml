@@ -2,6 +2,11 @@
 
 baseURL: https://www.lilianaoust.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 5da78949-16b1-4c8a-bd58-286475fd1d09
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
