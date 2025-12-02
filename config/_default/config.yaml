@@ -16,9 +16,8 @@ params:
         transition: 0
         disable:
           mobile: true
-  image_sizes:
-    design_system:
-      lightbox:
-        disabled: true
+  components:
+    lightbox:
+      disabled: true
   debug:
     productionUrl: "https://www.lilianaoust.fr"
