@@ -2,36 +2,50 @@
 title: Menu principal
 items:
 - title: Menu
+  slug: menu
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Les yeux de la montagne
+    slug: les-yeux-de-la-montagne
     target: "/les-yeux-de-la-montagne/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/les-yeux-de-la-montagne"
     file: content/fr/pages/les-yeux-de-la-montagne/_index.html
   - title: Les enfants du don
+    slug: les-enfants-du-don
     target: "/les-enfants-du-don/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/les-enfants-du-don"
     file: content/fr/pages/les-enfants-du-don/_index.html
   - title: La cité des anges
+    slug: la-cite-des-anges
     target: "/la-cite-des-anges/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-cite-des-anges"
     file: content/fr/pages/la-cite-des-anges/_index.html
   - title: Infos
+    slug: infos
     target: "/infos/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/infos"
     file: content/fr/pages/infos/_index.html
+  descendants_targets:
+  - "/infos/"
+  - "/la-cite-des-anges/"
+  - "/les-enfants-du-don/"
+  - "/les-yeux-de-la-montagne/"
 
