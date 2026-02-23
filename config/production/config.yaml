@@ -7,6 +7,11 @@ osuny:
   website:
     id: 5da78949-16b1-4c8a-bd58-286475fd1d09
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "lilianaoust.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
