@@ -1,5 +1,5 @@
 {{- $title := or .Params.header_text .Title -}}
-{{- $description := partial "PrepareText" .Params.summary -}}
+{{- $description := safeHTML .Params.summary -}}
 
 <div class="page-hero hero">
   <div class="container">
