@@ -15,22 +15,22 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/les-enfants-du-don-le-docu/"
+from = "/les-enfants-du-don-le-docu/index.html"
 to = "/les-enfants-du-don-mmi/"
 
 [[redirects]]
-from = "/a-propos/"
+from = "/a-propos/index.html"
 to = "/infos/"
 
 [[redirects]]
-from = "/series/les-enfants-du-don/"
+from = "/series/les-enfants-du-don/index.html"
 to = "/les-enfants-du-don-mmi/"
 
 [[redirects]]
-from = "/les-enfants-du-don-1/"
+from = "/les-enfants-du-don-1/index.html"
 to = "/les-enfants-du-don/"
 
 [[redirects]]
-from = "/series/les-yeux-de-la-montagne/"
+from = "/series/les-yeux-de-la-montagne/index.html"
 to = "/les-yeux-de-la-montagne/"
 
